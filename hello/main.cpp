@@ -1,7 +1,7 @@
 #include "lvgl.h"
 #include <SDL2/SDL.h> 
 
-static uint32_t my_tick_get() {
+uint32_t my_tick_get() {
     return SDL_GetTicks();
 }
 
